@@ -8,6 +8,11 @@
 
 - `brew install golang-migrate`
 
+### Install database
+
+- go get github.com/jmoiron/sqlx
+-
+
 ### Install the fiber
 
 express like server in go lang
