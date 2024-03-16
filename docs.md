@@ -11,7 +11,10 @@
 ### Install database
 
 - go get github.com/jmoiron/sqlx
--
+- go get github.com/jackc/pgx/v4/stdlib
+- `make migrate.create name=create_books_table`
+- `make make migrate.up`
+- `make migrate.down`
 
 ### Install the fiber
 
