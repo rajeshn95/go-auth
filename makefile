@@ -1,6 +1,6 @@
 .PHONY: clean test security build run
 
-APP_NAME = apiserver
+APP_NAME = access-server
 BUILD_DIR = $(PWD)/build
 MIGRATIONS_FOLDER = $(PWD)/platform/database/migrations
 DATABASE_URL = postgres://rajeshnautiyal:@localhost/books?sslmode=disable
