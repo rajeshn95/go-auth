@@ -34,7 +34,7 @@ Make file is used to store all the commands and commands stored can be ran in CL
 - Migration commands:
 
   - `make migrate.create name=create_books_table`
-  - `make make migrate.up`
+  - `make migrate.up`
   - `make migrate.down`
 
 ### Server

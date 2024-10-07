@@ -6,13 +6,15 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 -- https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 -- SET TIMEZONE="Europe/Moscow";
 
--- Create books table
-CREATE TABLE books (
-    id UUID DEFAULT uuid_generate_v4 () PRIMARY KEY,
+-- Create attributes table
+CREATE TABLE attributes (
+    uuid UUID DEFAULT uuid_generate_v4 () PRIMARY KEY,
+    user_uuid UUID NOT NULL,
+    type VARCHAR (255) NULL,
+    value VARCHAR (255) NULL,
+    purpose VARCHAR (255) NULL,
+    verified_at TIMESTAMP NULL,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW (),
     updated_at TIMESTAMP NULL,
-    title VARCHAR (255) NOT NULL,
-    author VARCHAR (255) NOT NULL,
-    book_status INT NOT NULL,
-    book_attrs JSONB NOT NULL
+    deleted_at TIMESTAMP NULL
 );
