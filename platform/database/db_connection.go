@@ -1,6 +1,6 @@
 package database
 
-import "github.com/rajeshn95/access-in-go/app/queries"
+import "github.com/rajeshn95/go-auth/app/queries"
 
 // Queries struct for collect all app queries.
 type Queries struct {

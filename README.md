@@ -2,7 +2,7 @@
 
 ### Commands to initialize ran:
 
-- `go mod init github.com/rajeshn95/access-in-go`
+- `go mod init github.com/rajeshn95/go-auth`
 
 ### Install the fiber
 

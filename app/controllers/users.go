@@ -5,9 +5,9 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
-	"github.com/rajeshn95/access-in-go/app/models"
-	"github.com/rajeshn95/access-in-go/pkg/utils"
-	"github.com/rajeshn95/access-in-go/platform/database"
+	"github.com/rajeshn95/go-auth/app/models"
+	"github.com/rajeshn95/go-auth/pkg/utils"
+	"github.com/rajeshn95/go-auth/platform/database"
 )
 
 // CreateBook func for creates a new book.

@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/rajeshn95/access-in-go/pkg/utils"
+	"github.com/rajeshn95/go-auth/pkg/utils"
 )
 
 // GetNewAccessToken method for create a new access token.

@@ -3,7 +3,7 @@ package queries
 import (
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
-	"github.com/rajeshn95/access-in-go/app/models"
+	"github.com/rajeshn95/go-auth/app/models"
 )
 
 // BookQueries struct for queries from Book model.

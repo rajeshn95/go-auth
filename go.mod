@@ -1,4 +1,4 @@
-module github.com/rajeshn95/access-in-go
+module github.com/rajeshn95/go-auth
 
 go 1.22.1
 

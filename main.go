@@ -2,12 +2,12 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
-	_ "github.com/joho/godotenv/autoload"      // load .env file automatically
-	_ "github.com/rajeshn95/access-in-go/docs" // load API Docs files (Swagger)
-	"github.com/rajeshn95/access-in-go/pkg/configs"
-	"github.com/rajeshn95/access-in-go/pkg/middleware"
-	"github.com/rajeshn95/access-in-go/pkg/routes"
-	"github.com/rajeshn95/access-in-go/pkg/utils"
+	_ "github.com/joho/godotenv/autoload" // load .env file automatically
+	_ "github.com/rajeshn95/go-auth/docs" // load API Docs files (Swagger)
+	"github.com/rajeshn95/go-auth/pkg/configs"
+	"github.com/rajeshn95/go-auth/pkg/middleware"
+	"github.com/rajeshn95/go-auth/pkg/routes"
+	"github.com/rajeshn95/go-auth/pkg/utils"
 )
 
 // @title API
